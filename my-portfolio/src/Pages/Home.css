@@ -1,0 +1,50 @@
+
+    /* Background Animation */
+    .star-field {
+      width: 100%;
+      height: 100%;
+      background: radial-gradient(circle, rgba(255, 255, 255, 0.1) 1%, transparent 60%);
+      background-size: 3px 3px;
+      animation: star-animation 10s infinite linear;
+    }
+
+    /* Fade-in Animation */
+    @keyframes fade-in {
+      0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+
+    /* Slide-in Animation */
+    @keyframes slide-in-right {
+      0% {
+        transform: translateX(100%);
+        opacity: 0;
+      }
+      100% {
+        transform: translateX(0);
+        opacity: 1;
+      }
+    }
+
+    /* Star Background Animation */
+    @keyframes star-animation {
+      0% {
+        transform: translate(0, 0);
+      }
+      100% {
+        transform: translate(-10px, -10px);
+      }
+    }
+
+    /* Apply Animations */
+    .animate-fade-in {
+      animation: fade-in 2s ease-in-out;
+    }
+
+    .animate-slide-in-right {
+      animation: slide-in-right 1.5s ease-in-out;
+    }
