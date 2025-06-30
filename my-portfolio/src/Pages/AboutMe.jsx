@@ -160,6 +160,15 @@ const CertCard = ({ title, items, linkLabel, linkHref }) => (
 const experienceData = [
   {
     title: "Slash Mark IT Solutions",
+    duration: "January 15, 2025 – February 15, 2025 (Remote)",
+    details: [
+      "Full Stack Web Development Internship.",
+      "Built responsive web applications with React and Node.js.",
+      "Collaborated in an agile team to deliver high-quality IT solutions."
+    ]
+  },
+  {
+    title: "Slash Mark IT Solutions",
     duration: "June 2024 – July 2024 (Remote)",
     details: [
       "Explored Java frameworks and cutting-edge technologies.",
@@ -178,17 +187,5 @@ const experienceData = [
   }
 ];
 
-const educationData = [
-  {
-    title: "SPPU University",
-    duration: "Bachelor of Engineering in Computer Science (CGPA: 8.00)",
-    details: []
-  },
-  {
-    title: "Government Polytechnic, Jalgaon",
-    duration: "Diploma in Information Technology (Percentage: 85%)",
-    details: []
-  }
-];
 
 export default AboutMe;
