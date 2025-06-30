@@ -186,6 +186,17 @@ const experienceData = [
     ]
   }
 ];
-
+const educationData = [
+  {
+    title: "SPPU University",
+    duration: "Bachelor of Engineering in Computer Science (CGPA: 8.00)",
+    details: []
+  },
+  {
+    title: "Government Polytechnic, Jalgaon",
+    duration: "Diploma in Information Technology (Percentage: 85%)",
+    details: []
+  }
+];
 
 export default AboutMe;
