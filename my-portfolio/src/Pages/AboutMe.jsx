@@ -159,8 +159,8 @@ const CertCard = ({ title, items, linkLabel, linkHref }) => (
 
 const experienceData = [
   {
-    title: "Slash Mark IT Solutions",
-    duration: "January 15, 2025 – February 15, 2025 (Remote)",
+    title: "Slash Mark IT Solutions (OPC) Pvt Ltd",
+    duration: "January 15, 2025 – March 15, 2025 (Remote)",
     details: [
       "Full Stack Web Development Internship.",
       "Built responsive web applications with React and Node.js.",
